@@ -3,7 +3,7 @@ import { siteTitle } from '@/config/setting';
 
 function Header() {
   return (
-    <header>
+    <header className="container mx-auto">
       <div>{siteTitle()}</div>
       <ul>
         <li>

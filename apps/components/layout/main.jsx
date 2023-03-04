@@ -5,7 +5,7 @@ function Main(props) {
   return (
     <>
       <Header />
-      <main>{props.children}</main>
+      <main className="container mx-auto my-5">{props.children}</main>
       <Footer />
     </>
   );

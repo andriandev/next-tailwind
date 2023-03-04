@@ -5,9 +5,9 @@ function Footer() {
   const currYear = new Date().getFullYear();
 
   return (
-    <footer>
+    <footer className="container mx-auto text-center">
       <p>
-        {`Copyright © ${currYear} `}
+        {`Copyright ©${currYear} `}
         <Link href="/">{siteTitle()}</Link>
       </p>
     </footer>
