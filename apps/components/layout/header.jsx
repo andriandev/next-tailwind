@@ -1,24 +1,7 @@
-import ActiveLink from '@/components/shared/active-link';
-import { siteTitle } from '@/config/setting';
+import Navbar from '@/layout/navbar';
 
 function Header() {
-  return (
-    <header className="container mx-auto">
-      <div>{siteTitle()}</div>
-      <ul>
-        <li>
-          <ActiveLink href="/" className="" activeClassName="active">
-            Home
-          </ActiveLink>
-        </li>
-        <li>
-          <ActiveLink href="/about" className="" activeClassName="active">
-            About
-          </ActiveLink>
-        </li>
-      </ul>
-    </header>
-  );
+  return <Navbar />;
 }
 
 export default Header;

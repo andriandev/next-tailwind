@@ -5,7 +5,9 @@ function Main(props) {
   return (
     <>
       <Header />
-      <main className="container mx-auto my-5">{props.children}</main>
+      <main className="container mx-auto mt-[4.5rem] mb-3 px-3">
+        {props.children}
+      </main>
       <Footer />
     </>
   );

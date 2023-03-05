@@ -5,11 +5,13 @@ function Footer() {
   const currYear = new Date().getFullYear();
 
   return (
-    <footer className="container mx-auto text-center">
-      <p>
-        {`Copyright ©${currYear} `}
-        <Link href="/">{siteTitle()}</Link>
-      </p>
+    <footer className="mx-auto flex w-full justify-center border-t bg-slate-100 py-4">
+      <div className="container">
+        <p className="text-center">
+          {`Copyright ©${currYear} `}
+          <Link href="/">{siteTitle()}</Link>
+        </p>
+      </div>
     </footer>
   );
 }
